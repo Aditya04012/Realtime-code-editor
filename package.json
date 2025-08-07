@@ -4,7 +4,6 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "install": "npm install",
     "build": "vite build",
     "dev:frontend": "vite",
     "dev:backend": "nodemon server.js",
