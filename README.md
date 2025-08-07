@@ -9,7 +9,7 @@ A collaborative code editor that enables multiple users to edit code simultaneou
 
 | ![Editor Screenshot](./public/img-4.png) | ![User View](./public/img-5.png) |
 
-> Replace `editor1.png` and `editor2.png` with your actual image filenames inside a `screenshots/` folder.
+
 
 ---
 
@@ -114,4 +114,5 @@ npm run dev
 ## 👨‍💻 Authors
 
 - **Aditya**
+
 
