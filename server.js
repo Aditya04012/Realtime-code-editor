@@ -2,11 +2,20 @@ import express from "express";
 import http from "http";
 import { Server } from "socket.io";
 import Action from "./src/pages/action.js"; // Use `import` to get the `Action` object
+import dotenv from 'dotenv';
+import cors from "cors";
+
+
 
 const app = express();
+app.use(cors());
+
+
+
+
 const server = http.createServer(app);
 const io = new Server(server);
-
+dotenv.config();
 const userSocketMap = {};
 
 function getAllClients(roomId) {
@@ -60,7 +69,8 @@ socket.on('disconnecting',()=>{
 
 
 });
+console.log(process.env.PORT);
 
-server.listen(3000, () => {
+server.listen(process.env.PORT, () => {
   console.log("server is live at port 3000");
 });
