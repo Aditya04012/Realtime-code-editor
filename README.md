@@ -47,7 +47,7 @@ Realtime-code-editor/
 - 🧾 **Room-based sessions** using unique UUIDs
 - 🪄 **Live code sync** for all participants
 - 🧍‍♂️ **User connection display**
-- 🧭 (Optional) **Leaflet.js integration** for geo-based features or UI
+- 🧭 **Leaflet.js integration** for geo-based features or UI
 
 ---
 
@@ -114,5 +114,6 @@ npm run dev
 ## 👨‍💻 Authors
 
 - **Aditya**
+
 
 
